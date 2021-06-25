@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624541570807"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="336dp"
+        android:layout_height="57dp"
+        android:text="Sansevieria Bacularis"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        app:srcCompat="@drawable/_624584058266" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="314dp"
+        android:layout_height="103dp"
+        android:text="Another good pick for a newbie planter is the Sansevieria Bacularis. This tropical plant is a big fan of light, so it will grow well in a bright area. This stylish air-purifying plant prefers to be dry than to receive too much water so it is so much easy to be taken care of as the only thing that needs to be highlighted is the lighting condition."
+        android:textColor="#0C0C0C" />
+    <ScrollView
+        android:layout_width="321dp"
+        android:layout_height="117dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="272dp"
+                android:layout_height="158dp"
+                android:text="HOW TO PLANT And CarE"
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Light: Best in moderate to bright, indirect light but will adapt to low light conditions too."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Water: Allow the soil to dry out before watering, then water thoroughly and allow to drain freely. Do not allow the plant to sit in water as this will cause root rot."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Temperature: Happy anywhere from 15-23°C and as low as 10°C for short periods."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Feed: Apply a weak dose of cactus or general-purpose feed once a month at most during the growing season. Sansevieria are low maintenance plants and do not require a lot of supplementary feeding. VIEW PLANT NUTRITION"
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Air Purifying: Sansevieria filter airborne toxins and are part of our clean air plant collection."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Height and Growth Rate: Ultimate height 75-100cm. Slow growing."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Toxicity: Mildly toxic if eaten. Keep away from children and animals."
+                android:textColor="#0C0C0C" />
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="263dp"
+        android:layout_height="66dp"
+        android:layout_margin="150dp"
+
+        android:text="HOME"
+        android:textColor="#E1E6EA"
+        android:textSize="34sp"
+        app:backgroundTint="#49569E" />
+</LinearLayout>

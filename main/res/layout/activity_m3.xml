@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624541570807"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="336dp"
+        android:layout_height="57dp"
+        android:text=" Golden Pothos Plants"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        app:srcCompat="@drawable/_624584058276" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="314dp"
+        android:layout_height="103dp"
+        android:text="Another air purifier plant that is worth considering is the golden pothos plant as it helps you breathe more oxygen by eliminating carbon monoxide from your room. If your days are filled with staring at the screen all day then planting golden pothos helps as it eases your eye tiredness. For its care, just leave it dry and do not water it on a daily basis—give it one or two weeks off from the last watering."
+        android:textColor="#0C0C0C" />
+    <ScrollView
+        android:layout_width="321dp"
+        android:layout_height="117dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="272dp"
+                android:layout_height="158dp"
+                android:text="HOW TO PLANT And CarE"
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Grow pothos indoors, preferably with bright, not direct light, although it also will tolerate low-light conditions. Tip: Pale leaves means too much sun, and loss of variegation means too little."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Pothos likes to have its soil dry out between waterings and therefore accepts erratic watering care. It definitely dislikes soggy roots. Tip: The leaves droop when the plant is thirsty and needs a drink. But don’t let this wilt-y stage go for too long or you will start to see leaf drop."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Grow in any well-draining potting soil."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Pothos is a light feeder, but you can give it a monthly snack with a balanced fertilizer formulated for houseplants."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="For more growing and care tips, see Pothos: A Field Guide to Planting, Care andDesign."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Read about more of our favorite houseplants in Prayer Plants: A Field Guide to Planting, Care andDesign. And see more tropical plants in Tropical Plants 101 and indoor plants with exotic foliage in Houseplants 101."
+                android:textColor="#0C0C0C" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="263dp"
+        android:layout_height="66dp"
+        android:layout_margin="150dp"
+
+        android:text="HOME"
+        android:textColor="#E1E6EA"
+        android:textSize="34sp"
+        app:backgroundTint="#49569E" />
+</LinearLayout>

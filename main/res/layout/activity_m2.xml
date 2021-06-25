@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624541570807"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="336dp"
+        android:layout_height="57dp"
+        android:text="Peace Lily"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        app:srcCompat="@drawable/_624584058280" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="314dp"
+        android:layout_height="103dp"
+        android:text="If you are struggling with time but still desire a healthy home environment, this plant is for you. This white-flowered plant will purify the air and absorb the mould spores, as a result, better breath and better health. Peace lily does not need to get extra attention as it will still stand with a little amount of water so it fits your busy lifestyle."
+        android:textColor="#0C0C0C" />
+    <ScrollView
+        android:layout_width="321dp"
+        android:layout_height="117dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="272dp"
+                android:layout_height="158dp"
+                android:text="HOW TO PLANT AnD CarE, TRANSPLANT, AND DIVIDE PEACE LILIES Use a well-draining, all-purpose potting soil. "
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Repotting annually in the spring is good for the peace lily, as the plant will appreciate the refreshed soil."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Eventually, the peace lily may grow too large for its pot, at which point it can be divided. Remove the plant from its pot and split it into smaller plants, being sure to leave several leaves per clump. The peace lily grows from rhizomes, so it can tolerate a bit of tough treatment during dividing."
+                android:textColor="#0C0C0C" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="263dp"
+        android:layout_height="66dp"
+        android:layout_margin="150dp"
+
+        android:text="HOME"
+        android:textColor="#E1E6EA"
+        android:textSize="34sp"
+        app:backgroundTint="#49569E" />
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624541570807"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="336dp"
+        android:layout_height="57dp"
+        android:text=" Spider Plant Chlorophytum Comosum"
+        android:textColor="#121111"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        app:srcCompat="@drawable/_624584058271" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="314dp"
+        android:layout_height="103dp"
+        android:text="The newbies who do not have many experiences of planting can set this spider plant as the starting point to become an expert as this spider-look-alike verdure does not require fuss care. This plant grows well in an even low-light area and does not need to be watered on a daily basis. Place spider plants in your office and let it spread its positivity across the room."
+        android:textColor="#0C0C0C" />
+    <ScrollView
+        android:layout_width="321dp"
+        android:layout_height="117dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="272dp"
+                android:layout_height="158dp"
+                android:text="HOW TO PLANT And CarE"
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Grow in a soil-based, well-draining potting mix. Spider plants like even moisture; they don’t like to be too dry or too wet."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Keep plants in bright to moderate indirect sunlight. Spider plants do not appreciate direct, hot sunlight, which can burn their leaves, causing brown tips and spots."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Spider plants grow fairly quickly and can easily become pot bound. Plan to repot a spider plant about every other year."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Spider plants can be grown outdoors as annuals during the summer. They look especially good along the edge of a container or bed, as long as they are kept out of direct sunlight."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="During initial growth, water occasionally; once fully developed (within one year), water moderately. "
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="In the spring and summer months, keep the soil moist to encourage growth. Do not let soil dry out too much."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Maintain average room temperature and humidity. Spider plants prefer temperatures between 55 and 80°F (13–27°C), which makes them a great indoor houseplant."
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:text="Fertilize up to twice a month in the spring and summer, however, avoid overfertilization. See more Houseplant Growing Tips."
+                android:textColor="#0C0C0C" />
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="263dp"
+        android:layout_height="66dp"
+        android:layout_margin="150dp"
+
+        android:text="HOME"
+        android:textColor="#E1E6EA"
+        android:textSize="34sp"
+        app:backgroundTint="#49569E" />
+</LinearLayout>
